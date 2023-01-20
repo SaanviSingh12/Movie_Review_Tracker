@@ -1,0 +1,36 @@
+body{
+    background-image:linear-gradient(to bottom right,rgb(22, 7, 60),rgb(246, 180, 213));;
+    color:aliceblue;
+}
+li{
+    margin: 20px;
+}
+h1{
+    color:rgb(246, 225, 168);
+    text-decoration: underline;
+}
+#element{
+    background-image:linear-gradient(to bottom right,rgb(9, 9, 9),rgb(16, 53, 57));;
+    border: 2px solid rgb(95, 122, 241);
+    margin: 20px;
+    
+}
+h3{
+    font-size:larger;
+    margin: 1px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color:rgb(240, 184, 184);
+}
+a{
+    color:white;
+    margin: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+#delete{
+    color:rgb(246, 101, 101);
+}
+#update{
+    color:aqua;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpdateMovie</title>
+    <link rel="stylesheet" href="/css/update.css">
+</head>
+<body>
+    <h1>   <i class="fa-solid fa-video"></i>   Movie Details</h1>
+
+    <div>
+     <form  method="post">
+         <label for id="Name">Name of Movie</label>
+         <input type="text" name="name" id="Name" required placeholder="Movie Name" value="<%=movies.name%>">
+ 
+         <label for id="movieType">Type of Movie</label>
+         <input type="text" name="movieType" id="movieType" required placeholder="ex. Comedy/Thriller/Horror" value="<%=movies.type%>">
+ 
+         <label for id="dateOfRelease">Date of Release</label>
+         <input type="date" name="dateOfRelease" id="dateOfRelease" required value="<%=movies.dateOfRelease%>">
+ 
+         <label for id="favCharacter">Favourite character in movie</label>
+         <input type="text" name="favCharacter" id="favCharacter" required placeholder="your fav character" value="<%=movies.favCharacter%>">
+ 
+         <label for id="rating">How would you rate this movie out of 5??</label>
+         <input type="number" name="rating" id="rating" required placeholder="rating out of 5" min="0" max="5" value="<%=movies.rating%>">
+ 
+         <button type="submit" id="updateChanges">Add Changes</button>
+         
+        </form>
+
+        <script type="text/javascript" src="/JS/update.js"></script>
+</body>
+</html>

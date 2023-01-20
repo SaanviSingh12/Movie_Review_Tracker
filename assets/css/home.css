@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(9, 9, 31);
+    color: aliceblue;
+
+
+}
+h1{
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+    margin-left: 40%;
+}
+
+
+
+form input{
+    height: 25px;
+    width: 300px;
+    display: block;
+    margin: 10px;
+    margin-left: 40%;
+}
+form input:hover{
+    background-color: rgb(198, 219, 233);
+}
+button{
+    height: 40px;
+    width: 200px;
+    margin-left: 40%;
+}
+button:hover{
+    background-color: rgb(123, 230, 146);
+    border:2px solid white;
+    border-radius: 10%;
+}
+#list{
+    color: rgb(95, 3, 69);
+    background-color: rgb(251, 191, 139);
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 500px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+#list:hover{
+    background-color: rgb(232, 143, 143);
+}
+a{
+    font-size: larger;
+}
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 40%;
+}

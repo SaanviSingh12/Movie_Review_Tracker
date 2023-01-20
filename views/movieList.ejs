@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" href="/css/movieList.css">
+    <script src="https://kit.fontawesome.com/9b676fb155.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="movies">
+   <h1>
+    List of Movies Added
+   </h1>
+
+   <ol>
+    <div id="list">
+        <!-- <%=console.log(List)%> -->
+    <% for(let i of List) { %>
+        <li id="element">
+           <h3> Movie Name : <%=i.name%></h3>
+            <ul>
+                <li>
+                    Movie Type : <%=i.type%>
+                </li>
+                <li>
+                    Date of Release : <%=i.dateOfRelease%>
+                </li>
+                <li>
+                    Favourite character in this movie : <%=i.favCharacter%>
+                </li>
+                <li>
+                    Movie ratings : <%=i.movieRating%>
+                </li>
+                <a href="delete-Movie/?id=<%=i._id%>" id="delete" >
+                    <i class="fa-solid fa-trash">  Delete</i>
+                </a>
+                <a href="update-Movie/?id=<%=i._id%>" id="update">
+                    <i class="fa-solid fa-pen-nib">  Update</i>
+                </a>
+            </ul>
+        </li>
+        <%}%>
+    </div>
+    </ol>
+</div>
+   
+<script type="text/javascript" src="/JS/movieList.js"></script>
+</body>
+</html>
